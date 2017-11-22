@@ -1,0 +1,93 @@
+body{
+
+	padding-top: 70px;
+	padding-bottom: 70px;
+    background-color: #ffffcc;
+
+}
+
+.nav-pills > li.active > a{
+  color: #fff;
+  background-color: #FFA200;
+}
+
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus{
+
+  background-color: #EE6200;
+
+}
+
+input[type=submit],.btn-primary, .btn-primary:hover, .btn-primary:focus,
+.btn-primary:active:hover, .btn-primary.active:hover, 
+.open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, 
+.btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, 
+.btn-primary:active.focus, .btn-primary.active.focus, 
+.open > .dropdown-toggle.btn-primary.focus,.panel-primary .panel-heading, 
+.btn-primary.disabled:hover,
+.btn-primary.disabled.focus{
+
+    background-color: #FFA200;
+    border-color: #FFA200;
+
+}
+
+input[type=submit]:hover, input[type=submit]:focus, .btn-primary:hover, 
+.btn-primary:focus, .btn-primary:active,.btn-primary.disabled:hover,
+.btn-primary.disabled.focus{
+
+  background-color: #EE6200;
+  border-color: #EE6200;
+
+}
+
+input[type=submit]{
+
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.panel-primary{
+
+    border-color: #FFA200;
+}
+
+.center-block{
+
+    display: table;
+}
+
+.textoResponsive:before{
+
+    content: "Listado de Insumos con Stock por debajo del minimo";
+}
+
+@media (max-width:700px) and (min-width:500px) {
+    .textoResponsive:before {
+        content: "Insumos con Stock por debajo del minimo";
+    }
+}
+
+@media (min-width:200px) and (max-width:499px){
+    .textoResponsive:before {
+        content: "Stock debajo del Minimo";
+    }
+}

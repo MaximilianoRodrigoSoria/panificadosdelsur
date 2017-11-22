@@ -1,0 +1,54 @@
+#footer{
+
+     margin-top: 20px;
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    #footer{
+
+     padding-bottom: 0px;
+    }
+
+    #footer .container-fluid{
+
+     padding-left: 0;
+    }
+
+    #footer .navbar-brand{
+
+     font-size: 12px;
+    }
+
+    #footer li a{
+
+          font-size: 8px;
+
+    }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+
+    #footer{
+
+     padding-bottom: 0px;
+    }
+
+    #footer .container-fluid{
+
+     padding-left: 0;
+    }
+
+    #footer .navbar-brand{
+
+     font-size: 15px;
+    }
+
+    #footer li a{
+
+          font-size: 10px;
+
+    }
+}
+
